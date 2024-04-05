@@ -669,7 +669,7 @@
 	"title": "2024",
 	"tags": [],
 	"description": "Endringer innført i 2024.",
-	"content": "\r24.2\rMindre forbedringer og feilrettinger\n\r\r24.1\rMindre forbedringer og feilrettinger\n\r\r"
+	"content": "\r2024\rEndringer innført i 2024.\n\r\r24.2\rMindre forbedringer og feilrettinger\n\r\r24.1\rMindre forbedringer og feilrettinger\n\r\r"
 },
 {
 	"uri": "https://altinn.github.io/docs/ny-funksjonalitet/releases/2023/23-12/",
@@ -796,6 +796,13 @@
 	"tags": [],
 	"description": "Endringer innført i 2023.",
 	"content": "\r23.12\rMindre forbedringer og feilrettinger\n\r\r23.10\rMindre forbedringer og feilrettinger\n\r\r23.9\rMindre forbedringer og feilrettinger\n\r\r23.8\rMindre forbedringer og feilrettinger\n\r\r23.5\rMindre forbedringer og feilrettinger\n\r\r23.4\rMindre forbedringer og feilrettinger\n\r\r23.3\rMindre forbedringer og feilrettinger\n\r\r23.2\rMindre forbedringer og feilrettinger\n\r\r23.1\rMindre forbedringer og feilrettinger\n\r\r"
+},
+{
+	"uri": "https://altinn.github.io/docs/ny-funksjonalitet/releases/2024/24-3/",
+	"title": "2024",
+	"tags": [],
+	"description": "Endringer innført i 2024.",
+	"content": "\r"
 },
 {
 	"uri": "https://altinn.github.io/docs/ny-funksjonalitet/prosjekter/tjenester30/architecture/",
