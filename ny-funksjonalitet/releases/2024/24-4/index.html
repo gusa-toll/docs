@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Videresending av skatteoppgjør til andre digitale postkasser, feilrettinger m.m.">
+    <meta name="description" content="Endringer innført i 2024.">
 
 
     
-    <title>18.6 :: Altinn digitalisering - Utvikling</title>
+    <title>2024 :: Altinn digitalisering - Utvikling</title>
     
     <link rel="shortcut icon" href="/docs/images/favicon.png" type="image/x-icon" />
     <link href="/docs/css/nucleus.css" rel="stylesheet">
@@ -49,7 +49,7 @@ if(host != "localhost")
 
 
   </head>
-  <body class="a-page" data-url="/docs/ny-funksjonalitet/releases/2018/18-6/">
+  <body class="a-page" data-url="/docs/ny-funksjonalitet/releases/2024/24-4/">
     <nav class="a-jumpnav">
   <ul class="no-decoration d-flex">
     <li><a class="sr-only sr-only-focusable" href="#content">Hopp til hovedinnholdet</a></li>
@@ -764,8 +764,8 @@ if(host != "localhost")
         <a href="/docs/ny-funksjonalitet/modernisering/"><span>Modernisering Altinn</span></a></li>
       <li class="dd-item parent">
         <a href="/docs/ny-funksjonalitet/releases/"><span>Endringslogg Altinn 2</span><i class="fa fa-sort-down fa-lg category-icon"></i></a><ul>
-      <li class="dd-item">
-        <a href="/docs/ny-funksjonalitet/releases/2024/"><span>2024</span><i class="fa fa-caret-right fa-lg category-icon"></i></a><ul><li class="dd-item">
+      <li class="dd-item parent">
+        <a href="/docs/ny-funksjonalitet/releases/2024/"><span>2024</span><i class="fa fa-sort-down fa-lg category-icon"></i></a><ul><li class="dd-item active">
           <a href="/docs/ny-funksjonalitet/releases/2024/24-4/">
             <span>2024</span></a></li><li class="dd-item">
           <a href="/docs/ny-funksjonalitet/releases/2024/24-3/">
@@ -898,8 +898,8 @@ if(host != "localhost")
             <span>19.2</span></a></li><li class="dd-item">
           <a href="/docs/ny-funksjonalitet/releases/2019/19-1/">
             <span>19.1</span></a></li></ul></li>
-      <li class="dd-item parent">
-        <a href="/docs/ny-funksjonalitet/releases/2018/"><span>2018</span><i class="fa fa-sort-down fa-lg category-icon"></i></a><ul><li class="dd-item">
+      <li class="dd-item">
+        <a href="/docs/ny-funksjonalitet/releases/2018/"><span>2018</span><i class="fa fa-caret-right fa-lg category-icon"></i></a><ul><li class="dd-item">
           <a href="/docs/ny-funksjonalitet/releases/2018/18-12/">
             <span>18.12</span></a></li><li class="dd-item">
           <a href="/docs/ny-funksjonalitet/releases/2018/18-11/">
@@ -911,7 +911,7 @@ if(host != "localhost")
           <a href="/docs/ny-funksjonalitet/releases/2018/18-8/">
             <span>18.8</span></a></li><li class="dd-item">
           <a href="/docs/ny-funksjonalitet/releases/2018/18-7/">
-            <span>18.7</span></a></li><li class="dd-item active">
+            <span>18.7</span></a></li><li class="dd-item">
           <a href="/docs/ny-funksjonalitet/releases/2018/18-6/">
             <span>18.6</span></a></li><li class="dd-item">
           <a href="/docs/ny-funksjonalitet/releases/2018/18-5/">
@@ -1029,7 +1029,7 @@ if(host != "localhost")
 
 
 
- <a href='/docs/'>Utvikling (Altinn 2)</a> <span class='adocs-breadcrumb-divider'> / </span> <a href='/docs/ny-funksjonalitet/'>Veien videre</a> <span class='adocs-breadcrumb-divider'> / </span> <a href='/docs/ny-funksjonalitet/releases/'>Endringslogg Altinn 2</a> <span class='adocs-breadcrumb-divider'> / </span> <a href='/docs/ny-funksjonalitet/releases/2018/'>2018</a> <span class='adocs-breadcrumb-divider'> / </span> 18.6
+ <a href='/docs/'>Utvikling (Altinn 2)</a> <span class='adocs-breadcrumb-divider'> / </span> <a href='/docs/ny-funksjonalitet/'>Veien videre</a> <span class='adocs-breadcrumb-divider'> / </span> <a href='/docs/ny-funksjonalitet/releases/'>Endringslogg Altinn 2</a> <span class='adocs-breadcrumb-divider'> / </span> <a href='/docs/ny-funksjonalitet/releases/2024/'>2024</a> <span class='adocs-breadcrumb-divider'> / </span> 2024
 
  
 
@@ -1049,10 +1049,10 @@ if(host != "localhost")
           
             
               <h1 class="a-fontBold">
-                18.6
+                2024
                 
               </h1>
-              <p class="a-leadText" id="leadText">Videresending av skatteoppgjør til andre digitale postkasser, feilrettinger m.m.</p>
+              <p class="a-leadText" id="leadText">Endringer innført i 2024.</p>
             
           
 
@@ -1062,112 +1062,74 @@ if(host != "localhost")
 
 
 
-<p><strong>Release 18.6, produksjonssatt 14. juni 2018.</strong></p>
 
 
-<nav id="TableOfContents">
-  <ul>
-    <li><a href="#endringer-i-portal">Endringer i portal</a></li>
-    <li><a href="#endringer-i-autorisasjon-på-tjenester">Endringer i Autorisasjon på tjenester</a></li>
-    <li><a href="#endringer-i-eksterne-grensesnitt">Endringer i eksterne grensesnitt</a></li>
-    <li><a href="#endringer-i-integrasjon">Endringer i integrasjon</a></li>
-    <li><a href="#diverse-bugfix">Diverse bugfix</a></li>
-  </ul>
-</nav>
-
-
-
-
-<h2 id="endringer-i-portal">Endringer i portal</h2>
-<h3 id="for-skjema-med-status-venter-på-andre-skal-knappen-som-tar-deg-videre-til-skjema-ha-teksten-gå-til-skjema">For skjema med status &ldquo;Venter på andre&rdquo; skal knappen som tar deg videre til skjema ha teksten &ldquo;Gå til skjema&rdquo;</h3>
-<p>Vi har endret tekst på knapp fra &ldquo;gå til &hellip;&rdquo; til &ldquo;gå til skjema&rdquo; for elementer som har status &ldquo;venter på andre&rdquo;.</p>
-<p>For alle skjema, der brukeren ikke har rettigheter til å utføre nåværende steg, vil teksten på knappen som tar deg videre til skjemaet være endret.
-Knappen heter &ldquo;Gå til skjema&rdquo; i stedet for &ldquo;Gå til &hellip;&rdquo;. Dette gjelder for alle skjema som er prefikset med &ldquo;Venter på andre&rdquo; i element-overskriften.</p>
-<h3 id="det-skal-for-angitte-meldingstjenester-være-mulig-for-bruker-å-videresende-til-egen-digital-postkasse">Det skal for angitte meldingstjenester være mulig for bruker å videresende til egen digital postkasse</h3>
-<p>Som bruker skal jeg kunne videresende skatteoppgjøret for 2017 til min valgte digitale postkasse.</p>
-<p>Det er lagt inn en konfigurasjonsverdi som gjør det mulig å oppgi hvilke meldingstjenester som skal videresendes til brukers digitale postkasse.
-Hvis bruker ikke har digital postkasse, skal brukeren likevel få muligheten til å gjøre det,
-ved å bli sendt videre til Difi sine sider for oppretting av digital postkasse.</p>
-<p>Når brukeren har videresendt en melding vil dette være synlig i ekspandert visning og i aktivitetsloggen.</p>
-<h3 id="forhindre-at-daglig-leder-for-enkeltpersonforetak-har-tilgang-til-eiers-personlige-innboks">Forhindre at daglig leder for enkeltpersonforetak har tilgang til eiers personlige innboks</h3>
-<p>Vi har endret løsningen slik at eier filtreres bort fra daglig leders tilgangsliste.<br>
-I tillegg filtrerer vi bort daglig leders tilganger, knyttet til innehaver.</p>
-<h3 id="altinn-1-elementer-skal-kunne-fjernes-på-forespørsel-fra-bruker">Altinn 1-elementer skal kunne fjernes på forespørsel fra bruker</h3>
-<p>Arkiverte elementer fra den aller første Altinn-løsningen skal kunne fjernes på forespørsel fra bruker.<br>
-Løsningen som kalles for &ldquo;Altinn 1&rdquo; ble innført i 2003 og faset ut i 2013.</p>
-<h3 id="fjerning-av-ekstra-side-med-valgbokser-for-kontakt-på-e-post-og-sms-for-ansatte-i-en-virksomhet">Fjerning av ekstra side med valgbokser for kontakt på e-post og sms for ansatte i en virksomhet</h3>
-<p>Som bruker skal jeg kunne be om varsler på SMS og/eller epost for en virksomhet jeg har tilgang til.</p>
-<p>Denne endringen fjerner den ekstra siden under &ldquo;Din kontaktinformasjon for virksomhet&rdquo;,
-der man tidligere kunne velge om man skulle motta varsling på epost og/eller sms.<br>
-Varsling for enkelttjenester er flyttet til første siden under &ldquo;Din kontaktinformasjon for virksomhet&rdquo;.</p>
-<p>Man vil nå alltid motta varsling om man har oppgitt epost og/eller SMS som kontaktinformasjon,
-med mindre man har lagt til varsling for enkelttjenester.
-Hvis man har lagt til tjenester under &ldquo;Varsling kun for enkelttjenester&rdquo; vil man kun motta varslinger for de enkelttjenestene man har valgt i denne listen.</p>
-<h2 id="endringer-i-autorisasjon-på-tjenester">Endringer i Autorisasjon på tjenester</h2>
-<p>For sluttbruker av altinn vil disse endringene ha lite å bety. 
-For tjenesteutvikler i Altinn vil dette bety nye rutiner når man ønsker å endre autorisasjonsregler på en tjeneste som allerede finnes i produksjon.</p>
-<h3 id="autorisasjon-basert-på-tul-roller-skal-benytte-reglene-fra-siste-versjon-av-tjenesten">Autorisasjon basert på TUL roller skal benytte reglene fra siste versjon av tjenesten</h3>
-<p>Dette betyr i praksis at de rollebaserte reglene knyttet til en tjeneste definert i TUL vil ha tilbakevirkende kraft når de importeres til SBL. 
-Dette gjør det mulig for tjenesteeier å endre på reglene på en tjenesteutgave uten at det må bestilles databaseskript for å få kopiert reglene over på eldre versjoner av tjenesteutgaven.</p>
-<p>Det er derimot ikke lenger mulig endre rolleregler på en utgave uten at det påvirker eksisterende versjoner. For å få til det må det lages en ny utgave av tjenesten. 
-Endringer i rolleregler som krever ny utgave er f.eks være at man bytter prosessflyt (et eller flere steg legges til eller fjernes) eller at man for en samhandlingstjeneste endrer antall rollestyrte sider.</p>
-<h3 id="autorisasjonsregler-definert-i-en-lokal-rolle-skal-gjelde-alle-versjoner-av-en-tjeneste">Autorisasjonsregler definert i en lokal rolle skal gjelde alle versjoner av en tjeneste</h3>
-<p>Denne endringen betyr at rettighetene knyttet til en lokal rolle som ble definert når Altinn hadde versjon 1 av en tjeneste også har effekt på versjon 2 av tjenesten selvom denne ble importert etter at rollen ble laget. I forrige versjon av Altinn ble slike autorisasjonsregler automatisk kopiert fra forrige versjon til ny versjon av en tjenesteutgave ved import av tjenesten. Denne kopieringen var en meget krevende prosess som skapte problemer med tjenesteimport.</p>
-<h3 id="en-enkelt-delegering-skal-gjelde-alle-versjoner-av-en-tjenesteutgave">En enkelt delegering skal gjelde alle versjoner av en tjenesteutgave</h3>
-<p>Enkeltrettigheter mot en tjeneste vil med denne endringen også fungere på fremtidige versjoner av tjenesteutgaven som enkeltrettigheten ble definert for. Denne endringen er nærmest identisk med endringen vedrørende lokale roller.</p>
-<h2 id="endringer-i-eksterne-grensesnitt">Endringer i eksterne grensesnitt</h2>
-<h3 id="oppdatere-xml-formdata-i-en-innsendingstjeneste-via-web-service">Oppdatere XML (FormData) i en innsendingstjeneste via web service</h3>
-<p>Det er nå mulig å oppdatere XML (FormData) i en innsendingstjeneste i innboks ved bruk av web service.</p>
-<p>Det er lagt til nye eksterne grensesnitt for å oppdatere FormData på elementer som er til utfylling.
-Dette er lik funksjonaliteten som allerede er laget for REST (<a href="https://www.altinn.no/api/Help/Api/PUT-who-messages-messageId-forms-formId)">https://www.altinn.no/api/Help/Api/PUT-who-messages-messageId-forms-formId)</a>.</p>
-<p>De nye grensesnittene ligger i IntermediaryInbound:</p>
-<ul>
-<li>IntermediaryInboundExternalBasic.UpdateFormDataBasic</li>
-<li>IntermediaryInboundExternalEC.UpdateFormDataBasic</li>
+<ul class="children children-li js-moveChildrenFrom">
 </ul>
-<h3 id="som-tjenesteeier-ønsker-jeg-at-henvisning-til-notification-types-ikke-skal-være-case-sensitive">Som tjenesteeier ønsker jeg at henvisning til notification types ikke skal være case-sensitive</h3>
-<p>Vi har endret kode slik at søk på template type, som skal brukes ved notification sending, ikke er case-sensitive.</p>
-<h2 id="endringer-i-integrasjon">Endringer i integrasjon</h2>
-<h3 id="receiveregisterdsf">ReceiveRegisterDSF</h3>
-<p>ReceiveRegisterDSF batch oppdateres til å kjøre &ldquo;comparative update&rdquo;, hvor den sammenligner innkommende personer
-med eksisterende person i database og kun skriver til database når person er oppdatert.
-For å kjøre &ldquo;comparative update&rdquo;, kjør ReceiveRegisterDSF batch med argument &ldquo;ComparativeUpdate=true&rdquo; .</p>
-<h2 id="diverse-bugfix">Diverse bugfix</h2>
-<h3 id="spør-meg-senere-knapp-virker-ikke-i-automatiske-påminnelser-for-din-kontaktinformasjon-20021">&ldquo;Spør meg senere&rdquo;-knapp virker ikke i automatiske påminnelser for Din Kontaktinformasjon (20021)</h3>
-<p>Når man tidligere fikk opp automatiske påminnelser om å oppdatere Din Kontaktinformasjon, kunne man trykke &ldquo;Bekreft&rdquo; eller &ldquo;Oppdatere&rdquo;.
-Når man trykket &ldquo;Oppdatere&rdquo; ble man tatt til et nytt vindu, for å oppdatere teksten.
-URL&rsquo;en man vanligvis blir tatt videre til fra denne siden falt bort. Videre, hvis man trykket på &ldquo;Spør meg senere&rdquo;
-manglet knappen en adresse å videreføre brukeren til.</p>
-<p>Dette er nå løst slik at adressen blir satt riktig. Det er i tillegg lagt til en validering av adressen,
-så det ikke er mulig å legge inn f.eks. javascript-lenker.</p>
-<h3 id="feil-på-klientdelegering-og-henting-av-rettigheter-på-klienter-når-tegnet--inngår-i-navnet-19759">Feil på klientdelegering og henting av rettigheter på klienter når tegnet ' inngår i navnet (19759)</h3>
-<p>Når man legger til nye brukere under klientdelegering dirigeres man via en side der brukerens navn havner i URLen.
-Denne ble ikke riktig kodet, slik at tegn som &ldquo;'&rdquo; (enkelt-fnutt) førte til feil tolkning av URLen.
-Dette er rettet opp slik at navn med spesielle tegn blir riktig kodet. Dette er rettet opp andre steder i klientdelegering, der søketekster ikke blir riktig kodet.</p>
-<h3 id="optimalisering-av-lagrede-prosedyrer-20164">Optimalisering av lagrede prosedyrer (20164)</h3>
-<p>Flere lagrede prosedyrer er optimalisert basert på monitorering i produksjonsmiljøet.</p>
-<h3 id="ny-tabell-i-maintainance-db-for-lagring-av-statistikk-for-lagrede-prosedyrer-20273">Ny tabell i Maintainance DB for lagring av statistikk for lagrede prosedyrer (20273)</h3>
-<p>Vi har innført en ny tabell for lagring av statistikk.</p>
-<h3 id="konfigurasjon-av-caching-20242">Konfigurasjon av caching (20242)</h3>
-<p>Det er innført en attributt i cache.config der man skrur av/på caching for alle nøkler. Vil kun benyttes for test/analyse/feilsøk.</p>
-<h3 id="rft15013---slett-enkeltrettighet---kunden-får-ikke-gjort-dette-selv-20214">RFT15013 - Slett enkeltrettighet - kunden får ikke gjort dette selv (20214)</h3>
-<p>Det oppstår duplikater under kjøring av lagret prosedyre. Løses ved å innføre unik primærnøkkel i temporærtabell.</p>
-<h3 id="slett-knapp-mangler-for-elementer-i-signeringssteg-20339">Slett-knapp mangler for elementer i signeringssteg (20339)</h3>
-<p>En endring i autorisering førte til at &ldquo;Slett&rdquo;-knappen ble fjernet ved ekspandering av enkelt element i signeringssteget.
-Retted ved å endre parameter i kall til autentisering.</p>
-<h3 id="ved-migrering-av-en-ny-tjenesteversjon-henter-skjemavalidering-feil-logiske-id-for-gamle-elementer-20316">Ved migrering av en ny tjenesteversjon henter skjemavalidering feil logiske id for gamle elementer (20316)</h3>
-<p>LogicalFormSchemaDefinition ble før hentet ved å finne nyeste ServiceEditionVersionId for en tjeneste.
-Om det ikke var overenestemmelse mellom LogicalFormId for schema og det som var brukt på elementet var det ikke mulig å oppdatere elementet gjennom REST/SOAP.
-Dette er nå rettet opp.</p>
-<h3 id="feil-på-varsel---altinn-sender-to-sms-20316">Feil på varsel - Altinn sender to SMS (20316)</h3>
-<p>Feilen kommer som ett resultat av KoFuVi-integrasjonen, men har vært mulig tidligere også.
-Etter KoFuVi har alle telefonnummer registrert i felles &lsquo;Varslingsadresser for virksomheten&rsquo; fått med landskode også for norske telefonnummer.</p>
-<p>Dersom samme telefonnummer er registrer i &lsquo;Din kontaktinformasjon for virksomheten&rsquo; uten landskode +47,
-eller evt. med 0047 så ble ikke dette oppdaget som duplikat tisligere. Det ble sendt ut dobbel SMS.<br>
-Dette er nå rettet opp i, med at man eksplisitt stripper bort landskode når man gjør sammenligning for duplikater.</p>
-<h3 id="correspondence-batch-feiler-når-mottaker-er-en-person-uten-brukerprofil-i-altinn-20496">Correspondence Batch feiler når mottaker er en person uten brukerprofil i Altinn (20496)</h3>
-<p>Feilen kommer som ett resultat av sammenslåingen av logikk for validering og sending av varsel for Prefill, Correspondence og StandAlone.<br>
-Dette er nå rettet opp i.</p>
+<h2 id="endringer-i-portal">Endringer i Portal</h2>
+<h3 id="id-porten-autorisasjoner-kan-igjen-administreres-i-altinn-profil">ID-Porten autorisasjoner kan igjen administreres i Altinn Profil</h3>
+<p>ID-Porten har nå tilgjengeliggjort nytt API for sin nye OIDC platform, som Altinn kan integrere mot for at brukere kan få sett og evt. trukket tilbake autorisasjoner de har gitt til ID-Porten systemer/klienter.
+Disse vises i brukerens Profilside i Altinn under panelet &ldquo;Samtykker og fullmakter&rdquo;
+<img src="IdPortenAuthsProfile.png" alt="Visning av ID-Porten autorisasjoner i &ldquo;Samtykker og fullmakter&rdquo;-panelet på profilsiden"></p>
+<p>Hver autorisasjon kan da inspiseres for hvilket system/klient autorisasjonen ble gitt til, hvilken organisasjon som eier klienten, en beskrivelse av klienten, hvilke scope som ble gitt tilgang til og beskrivelse fra Samarbeidsportalen om hva scopene gir tilgang til, når autorisasjonen ble gitt, når det utløper og hvilken type nettleser og operativsystem autorisasjonen ble gitt fra.</p>
+<p>Her kan brukeren også velge å trekke tilbake autorisasjonen.
+<img src="IdPortenAuthExample.png" alt="Eksempel visning av en ID-Porten autorisasjon"></p>
+<h3 id="nytt-brukergrensesnitt-for-delegering-av-enkelttilganger">Nytt brukergrensesnitt for delegering av enkelttilganger</h3>
+<p>Knapp for å &ldquo;Gi tilgang til enkelttjenester&rdquo; vil nå ta brukere til nytt brukergrensesnitt for delegering i Altinn 3.
+<img src="NyEnkeltTilgangDelegeringKnapp.png" alt="Gi tilgang til enkelttjenster knappen tar bruker nå til nytt brukergrensesnitt i Altinn 3"></p>
+<p>Nytt brukergrensesnitt lar bruker søke, filtrere på tjenesteeier og velge flere Altinn 2 tjenester, Altinn 3 apps eller ressurser fra Ressursregisteret som man ønsker å delegere.
+<img src="NyEnkeltTilgangDelegeringAltinn3UIValgAvRessurser.png" alt="Eksempel skjermbilde av nytt brukergrensesnitt i Altinn 3 for valg av ressurser for delegering"></p>
+<p>Dersom tilgangsstyrer selv mangler nødvendig tilgang til å kunne gjennomføre delegering vil det gis umiddelbar tilbakemelding om dette ved valg av en tjeneste, app eller ressurs.
+<img src="NyEnkeltTilgangDelegeringAltinn3UIValgAvRessurserManglerRolle.png" alt="Eksempel skjermbilde av nytt brukergrensesnitt i Altinn 3 for valg av ressurs hvor tilgangsstyrer mangler rolle"></p>
+<p>Etter å ha valgt tjenester/apps/ressurser for delegering, får tilgangsstyrer oversikt over tilgjengelige enkelttilganger pr. valgt tjeneste/app/ressurs den har tilgang til å delegere og mulighet til å justere.
+<img src="NyEnkeltTilgangDelegeringAltinn3UIValgAvEnkeltTilganger.png" alt="Eksempel skjermbilde av nytt brukergrensesnitt i Altinn 3 for valg av enkelttilganger for delegering"></p>
+<h3 id="avgiverliste-i-altinn-portal-inkluderer-nå-avgivere-bruker-har-via-tilganger-for-altinn-3-ressurser">Avgiverliste i Altinn Portal inkluderer nå avgivere bruker har via tilgang(er) for Altinn 3 ressurser</h3>
+<p>Via nytt brukergrensesnitt i Altinn 3 for delegering av enkelttilganger, er det nå mulig å delegere tilgang til nye ressurs typer fra Ressursregisteret.
+Mottakere som bare har tilgang til en avgiver gjennom å ha mottatt enkelttilgang for en ressurs (enten direkte til bruker eller via virksomheter bruker har nøkkelrolle for), skal kunne få disse avgiverne opp i avgiverlisten i Altinn for å kunne velge denne som avgiver og administrere sine direkte mottatte rettigheter fra Profilsiden til avgiver.</p>
+<h3 id="økt-sikkerhetsnivå-krav-til-nivå-3-for-administrering-av-egne-rettigheter-for-en-avgiver">Økt sikkerhetsnivå krav til nivå 3 for administrering av egne rettigheter for en avgiver</h3>
+<p>I sammenheng med utfasing av Altinn&rsquo;s egne autentiseringsmetoder med Altinn pinkoder, SMS-pin eller passord, økes kravet til sikkerhetsnivå 3 eller høyere for å kunne administrere egne mottatte rettigheter for en avgiver.</p>
+<p>Behovet for endringen kommer også av nye integrasjoner mot Altinn 3 platformen for administrasjon av enkelttilganger i Altinn 3 som også krever sikkerhetsnivå 3 eller høyere.
+<img src="SecLvl3KravSkjemaOgTjenester.png" alt="Eksempel på feilmelding dersom man er pålogget med for lavt sikkerhetsnivå"></p>
+<h3 id="økt-sikkerhetsnivå-krav-til-nivå-3-for-administrering-av-rettigheter-virksomheten-har-mottatt-fra-andre">Økt sikkerhetsnivå krav til nivå 3 for administrering av rettigheter virksomheten har mottatt fra andre</h3>
+<p>I sammenheng med utfasing av Altinn&rsquo;s egne autentiseringsmetoder med Altinn pinkoder, SMS-pin eller passord, økes kravet til sikkerhetsnivå 3 eller høyere for å kunne administrere en virksomhets mottatte rettigheter fra andre.</p>
+<p>Behovet for endringen kommer også av nye integrasjoner mot Altinn 3 platformen for administrasjon av enkelttilganger i Altinn 3 som også krever sikkerhetsnivå 3 eller høyere.
+<img src="SecLvl3KravAndreMedRettigheterTilVirksomheten.png" alt="Eksempel på feilmelding dersom man er pålogget med for lavt sikkerhetsnivå"></p>
+<h3 id="skjema-og-tjenester-administrering-av-mottatte-enkelttilganger-for-altinn-3-ressurser">Skjema og tjenester: Administrering av mottatte enkelttilganger for Altinn 3 ressurser</h3>
+<p>Når en bruker eller virksomhet har mottatt enkeltrettighet for en ressurs i Ressursregisteret i Altinn 3 vil brukeren (eller virksomhetens nøkkelrolle-personer) kunne se enkelttilgangene de har mottatt i Panelet &ldquo;Skjema og tjenester du har rettighet til&rdquo; i Profilsiden til avgiver man har mottatt tilgangene fra.</p>
+<p>I eksempel skjermbildet under har bruker både mottatt enkelttilganger direkte som vises med hvit bakgrunn og via virksomhet brukeren har nøkkelrolle (f.eks Dagligleder) som vises med skravert bakgrunn.
+<img src="SkjemaOgTjenesterEnkeltTilgangViserAltinn3Ressurser.png" alt="Skjermbilde som viser hvordan enkelttilganger til ressurser i Altinn 3 vises i Skjema og Tjenester"></p>
+<p>Ønsker bruker å si fra seg sine direkte mottatte enkelttilganger, kan brukeren gjøre dette ved å klikke på &ldquo;Fjern en eller flere rettigheter&rdquo; og deretter velge de enkelttilgangene man ønsker å si fra seg.</p>
+<p><strong>Merk:</strong> Tilgang bruker arver via virksomhet brukeren har nøkkelrolle er ikke mulig å si fra seg her. Rettigheter gitt til virksomheten må administreres fra virksomhetens egen Profilside (se: <a href="#rettigheter-virksomheten-har-hos-andre-administrering-av-mottatte-enkelttilganger-for-altinn-3-ressurser">Rettigheter virksomheten har hos andre: Administrering av mottatte enkelttilganger for Altinn 3 ressurser</a>)
+<img src="SkjemaOgTjenesterEnkeltTilgangSlettingAvAltinn3Ressurser.png" alt="Skjermbilde som viser hvordan enkelttilganger til ressurser i Altinn 3 kan slettes fra Skjema og Tjenester"></p>
+<h3 id="rettigheter-virksomheten-har-hos-andre-administrering-av-mottatte-enkelttilganger-for-altinn-3-ressurser">Rettigheter virksomheten har hos andre: Administrering av mottatte enkelttilganger for Altinn 3 ressurser</h3>
+<p>Når en virksomhet har mottatt enkeltrettighet for en ressurs i Ressursregisteret i Altinn 3 vil disse avgiverene virksomheten har mottatt vises i Panelet &ldquo;Rettigheter virksomheten har hos andre&rdquo; i Profilsiden til virksomheten.</p>
+<p><strong>Merk:</strong> Dette panelet er bare tilgjengelig for Tilgangsstyrere eller Hovedadministratorer for virksomheten.
+<img src="RettigheterVirksomhetenHarHosAndre.png" alt="Skjermbilde som viser hvordan enkelttilganger til ressurser i Altinn 3 vises i Rettigheter virksomheten har hos andre"></p>
+<p>I eksempel skjermbildet under har tilgangsstyrer valgt å se på mottatte enkelttilganger fra en underenhet (Pil nr.1 i skjermbildet over). Her har virksomheten både mottatt enkelttilganger direkte fra underenheten (vises med hvit bakgrunn) og mottatt enkelttilganger fra hovedenheten (vises med skravert bakgrunn).
+Bare rettigheter som er gitt direkte fra avgiveren man inspiseres kan slettes fra denne visningen.
+<img src="RettigheterVirksomhetenHarHosAndreUnderenhetVisningOgSlettingAvAltinn3Ressurs.png" alt="Skjermbilde som viser hvordan enkelttilganger til ressurser i Altinn 3 kan slettes i Rettigheter virksomheten har hos andre for en underenhet"></p>
+<p>I eksempel skjermbildet under har tilgangsstyrer valgt å se på mottatte enkelttilganger fra hovedenheten (Pil nr.2 i skjermbildet over). Her vises da mottatte enkelttilganger direkte fra hovedenheten med hvit bakgrunn og kan slettes.
+<img src="RettigheterVirksomhetenHarHosAndreHovedenhetVisningOgSlettingAvAltinn3Ressurs.png" alt="Skjermbilde som viser hvordan enkelttilganger til ressurser i Altinn 3 kan slettes i Rettigheter virksomheten har hos andre for en hovedenhet"></p>
+<h3 id="andre-med-rettigheter-administrering-av-delegerte-enkelttilganger-for-altinn-3-ressurser">Andre med rettigheter: Administrering av delegerte enkelttilganger for Altinn 3 ressurser</h3>
+<p>Når en virksomhet har delegert enkeltrettighet for en ressurs i Ressursregisteret i Altinn 3 vil mottakere av tilgangene vises i Panelet &ldquo;Andre med rettigheter til virksomheten&rdquo; i Profilsiden til virksomheten.</p>
+<p><strong>Merk:</strong> Dette panelet er nå bare tilgjengelig for Tilgangsstyrere eller Hovedadministratorer for virksomheten ref.: <a href="../../2024/24-03/#innsyn-i-andre-med-rettigheter-for-virksomheter-krever-n%C3%A5-tilgangsstyring-el-hovedadministrator-rolle-samt-sikkerhetsniv%C3%A5-3">Endring i Release 24.3</a></p>
+<p>I eksempel skjermbildet under har tilgangsstyrer valgt å se på &ldquo;Andre med rettigheter&rdquo; for en underenhet.
+<img src="AndreMedRettigheterUnderenhet.png" alt="Skjermbilde som viser Andre med rettigheter til virksomheten for en underenhet"></p>
+<p>I eksempel skjermbildet under har tilgangsstyrer valgt å se på tilganger en annen virksomhet har for underenheten. Her har mottaker både mottatt direkte enkelttilganger fra underenhet (vises med hvit bakgrunn), samt enkelttilganger fra hovedenheten (vises med skravert bakgrunn).
+Rettigheter mottatt fra en hovedenhet er også gjeldende for alle underenheter, som er årsaken til at disse også vises her. Men skal disse trekkes må tilgangsstyrer også være tilgangstyrer for hovedenheten og bytte avgiver til hovedenhet for å administrere delegeringene på hovedenhetens profilside.
+<img src="AndreMedRettigheterUnderenhetSlettingAvAltinn3Ressurser.png" alt="Skjermbilde som viser sletting av enkelttilganger fra en underenhet"></p>
+<p>I eksempel skjermbildet under har tilgangsstyrer byttet avgiver og valgt å se på &ldquo;Andre med rettigheter&rdquo; for hovedenheten.
+<img src="AndreMedRettigheterHovedenhet.png" alt="Skjermbilde som viser Andre med rettigheter til virksomheten for en hovedenhet"></p>
+<p>I eksempel skjermbildet under har tilgangsstyrer valgt å se på tilganger en annen virksomhet har for hovedenheten. Her vises da bare tilganger som er direkte delegert fra hovedenheten. Sletter tilgangsstyrer tilgangene her vil mottaker også miste disse tilgangene for alle underenheter.
+<img src="AndreMedRettigheterHovedenhetSlettingAvAltinn3Ressurser.png" alt="Skjermbilde som viser sletting av enkelttilganger fra en hovedenhet"></p>
+<h2 id="endringer-i-sbl-bridge-api">Endringer i SBL Bridge API</h2>
+<h3 id="mulighet-for-å-trigge-cache-invalidering-i-altinn-2-fra-altinn-3-ved-behov">Mulighet for å trigge cache invalidering i Altinn 2 fra Altinn 3 ved behov</h3>
+<p>Det har oppstått behov for å kunne invalidere caching av avgiverliste og tilganger i Altinn 2, i sammenheng med nytt brukergrensesnitt i Altinn 3 for delegering av enkelt-tilganger for tjenester, apps og ressurser fra Ressursregisteret.
+Dette for at nye delegeringer som nå utføres i brukergrensesnitt i Altinn 3, skal kunne bli synlige for tilgangsstyrer i visning av rettigheter som fortsatt skjer fra eksisterende brukergrensesnitt i Altinn 2 Profilsiden.</p>
+
+
+
+
 
 
 <footer class=" footline" >
@@ -1175,15 +1137,14 @@ Dette er nå rettet opp i.</p>
 </footer>
 
 
-
                 </div>
               </div>
 
               <div id="navigation">
-                  <a class="nav nav-prev" href="/docs/ny-funksjonalitet/releases/2018/18-7/" title="18.7"> <i class="fa fa-angle-left"></i> Forrige side</a><a class="nav nav-next" href="/docs/ny-funksjonalitet/releases/2018/18-5/" title="18.5" style="margin-right: 0px;">Neste side <i class="fa fa-angle-right"></i></a></div>
+                  <a class="nav nav-prev" href="/docs/ny-funksjonalitet/releases/2024/" title="2024"> <i class="fa fa-angle-left"></i> Forrige side</a><a class="nav nav-next" href="/docs/ny-funksjonalitet/releases/2024/24-3/" title="2024" style="margin-right: 0px;">Neste side <i class="fa fa-angle-right"></i></a></div>
 
             </div><div id="top-github-link">
-                  <a class="" href="https://github.com/altinn/docs/blob/master/content/ny-funksjonalitet/releases/2018/18-6/index.md" target="blank">
+                  <a class="" href="https://github.com/altinn/docs/blob/master/content/ny-funksjonalitet/releases/2024/24-4/index.md" target="blank">
                     <i class="fa fa-code-fork"></i>
                     Endre denne siden i github
                   </a>
@@ -1319,4 +1280,3 @@ Dette er nå rettet opp i.</p>
     </script>
 <script src="/docs/js/custom.js"></script></body>
 </html>
-
