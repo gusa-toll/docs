@@ -1086,14 +1086,6 @@ if(host != "localhost")
 
 <h1 id="arkiv">Arkiv</h1>
 <p>Tjenesten benyttes for å hente ut arkiverte element i innboksen til bruker i Altinn 2.</p>
-<p>Det vil bli utviklet ny arbeidsflate for meldingsboks i Altinn. Dette arbeidet er i en oppstartsfase og fremdrift kan følges <a href="https://github.com/orgs/digdir/projects/8/views/28">her</a>.</p>
-<p>I forbindelse med modernisering av Altinn 2 så blir det også utviklet en ny tjeneste foreløpig kalt <a href="https://digdir.github.io/dialogporten/">Dialogporten</a>&quot;. 
-Dialogporten har som hensikt å bli en felles nasjonal arbeidsflate for både API- og GUI-konsumenter av offentlige tjenester.</p>
-<p><em>Ny funksjonalitet og API blir utviklet i 2025 i Altinn 3.</em></p>
-<ul>
-<li>Se beskrivelse av den nye tjenesten her: <em>lenke kommer</em></li>
-<li>se beskrivelse av de nye APIene: <em>lenke kommer</em></li>
-</ul>
 <h2 id="archiveexternalreporteearchiveexternal">/ArchiveExternal/ReporteeArchiveExternal​</h2>
 <p><strong>Brukes av bare Sluttbrukersystem.</strong></p>
 <h4 id="operasjoner-i-a2">Operasjoner i A2</h4>
@@ -1103,7 +1095,7 @@ Dialogporten har som hensikt å bli en felles nasjonal arbeidsflate for både AP
 <li>GetAttachmentData​</li>
 <li>GetArchivedCorrespondence​</li>
 </ul>
-<p><em>Alle disse operasjonene fases ut slik de nå er og erstattes av nye REST API med nytt design</em></p>
+<p>SOAP-API-ene vil ikke videreføres i Altinn 3. Se <a href="../../rest-sbs/meldingsboks/">informasjon om migrering av meldingsboks-APIer i REST</a>.</p>
 <h2 id="archiveexternalserviceownerarchiveexternal">/ArchiveExternal/ServiceOwnerArchiveExternal​</h2>
 <p><strong>Brukes av bare Tjenesteeiere.</strong></p>
 <h4 id="operasjoner-i-a2-1">Operasjoner i A2</h4>
@@ -1113,7 +1105,12 @@ Dialogporten har som hensikt å bli en felles nasjonal arbeidsflate for både AP
 <li>/ArchiveExternal/ServiceOwnerArchiveExternalStreamed​</li>
 <li>GetAttachmentDataStreamedBasic​</li>
 </ul>
-<p><em>Alle disse operasjonene fases ut slik de nå er og erstattes av nye REST API med nytt design</em></p>
+<p>SOAP-API-ene vil ikke videreføres i Altinn 3. Se <a href="../../rest-sbs/meldingsboks/">informasjon om migrering av meldingsboks-APIer i REST</a>.</p>
+<p>Dialogporten vil tilby tjenesteeier-API-er for å administrere dialoger.</p>
+<div class="notices warning" >Teknisk dokumentasjon for intergrasjoner mot Dialogporten (både sluttbruker-API og tjenesteeier-API) er under utarbeidelse og vil bli tilgjengeliggjort på <a href="https://docs.altinn.studio/api/">Altinn Docs</a></div>
+<ul>
+<li><a href="https://altinn-dev-api.azure-api.net/dialogporten/swagger/index.html#/Serviceowner">Se OpenAPI for tjenesteeier-API-er i Dialogporten</a></li>
+</ul>
 <h1 id="mottak-av-skjema-hos-tjenesteeier">Mottak av skjema hos tjenesteeier</h1>
 <p>Tjenesten benyttes av tjenesteeier for å hente ned skjema de har mottat fra brukere i Altinn.</p>
 <p>Skjema i Altinn 2 fases nå ut og utvikles på nytt i Altinn 3. Det er den offentlige etaten som eier skjema som er ansvarlig for dette og bestemmer når dette skjer. 
@@ -1127,7 +1124,10 @@ Her finner dere informasjon om <a href="https://docs.altinn.studio/api/apps/">AP
 <li>GetFormSetPdfBasic​</li>
 <li>PurgeItem​</li>
 </ul>
-<p><em>Alle disse operasjonene fases ut slik de nå er og erstattes av nye REST API med nytt design</em></p>
+<p>Alle disse operasjonene fases ut slik de nå er og erstattes av nye REST API med nytt design.</p>
+<ul>
+<li><a href="https://docs.altinn.studio/api/guides/appownerintegration/receivingdata/">Les mer om tjenesteeier-API-er for å motta data fra apper i Altinn 3</a></li>
+</ul>
 
 
 <footer class=" footline" >
