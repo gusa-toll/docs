@@ -669,7 +669,7 @@
 	"title": "2024",
 	"tags": [],
 	"description": "Endringer innført i 2024.",
-	"content": "\r24.4\rMindre forbedringer og feilrettinger\n\r\r24.3\rMindre forbedringer og feilrettinger\n\r\r24.2\rMindre forbedringer og feilrettinger\n\r\r24.1\rMindre forbedringer og feilrettinger\n\r\r"
+	"content": "\r24.4\rMindre forbedringer og feilrettinger\n\r\r24.3\rMindre forbedringer og feilrettinger\n\r\r24.2\rMindre forbedringer og feilrettinger\n\r\r24.1\rMindre forbedringer og feilrettinger\n\r\r\r\n\r\r"
 },
 {
 	"uri": "https://altinn.github.io/docs/ny-funksjonalitet/releases/2023/23-12/",
@@ -2567,6 +2567,13 @@
 	"tags": [],
 	"description": "",
 	"content": "docs\n"
+},
+{
+	"uri": "https://altinn.github.io/docs/ny-funksjonalitet/releases/2024/24-5/",
+	"title": "",
+	"tags": [],
+	"description": "",
+	"content": ""
 },
 {
 	"uri": "https://altinn.github.io/docs/ny-funksjonalitet/releases/2016/16-1/",
