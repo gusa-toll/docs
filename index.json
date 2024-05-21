@@ -669,7 +669,7 @@
 	"title": "2024",
 	"tags": [],
 	"description": "Endringer innført i 2024.",
-	"content": "\r24.4\rMindre forbedringer og feilrettinger\n\r\r24.3\rMindre forbedringer og feilrettinger\n\r\r24.2\rMindre forbedringer og feilrettinger\n\r\r24.1\rMindre forbedringer og feilrettinger\n\r\r\r\n\r\r"
+	"content": "\r24.5\rMindre forbedringer og feilrettinger\n\r\r24.4\rMindre forbedringer og feilrettinger\n\r\r24.3\rMindre forbedringer og feilrettinger\n\r\r24.2\rMindre forbedringer og feilrettinger\n\r\r24.1\rMindre forbedringer og feilrettinger\n\r\r"
 },
 {
 	"uri": "https://altinn.github.io/docs/ny-funksjonalitet/releases/2023/23-12/",
@@ -1111,6 +1111,13 @@
 	"tags": [],
 	"description": "Endringer innført i 2019.",
 	"content": "\r19.12\rNy visning for \u0026#34;andre med rettigheter\u0026#34;, ytelsesforbedringer og feilrettinger.\n\r\r19.11\rFeilrettinger.\n\r\r19.10\rEndringer i autorisasjon, portal og feilrettinger.\n\r\r19.9\rUtbedret feilmelding hvis TokenValue mangler, endring i visning av rettighetsholders fødselsnummer, feilrettinger.\n\r\r19.8\rSamtykkeforespørsel via REST, oppgradering av eksterne REST API biblioteker, filstørrelse på streaming økt til 500 MB og feilrettinger.\n\r\r19.7\rEndringer i autorisasjon, ny operasjon i SOAP API, forbedringer i innlesing av data fra Enhetsregisteret, feilrettinger.\n\r\r19.6\rInnføring av Hovedadministrator-rolle, oppgradert BankID, meny på mobil rettet og mindre endringer\n\r\r19.5\rOpprettelse av lokal rolle forenklet, mindre endringer, feilrettinger.\n\r\r19.4\rDenne releasen inneholder tekniske feilrettinger og forbedringer som ikke vil påvirke løsningen funksjonelt. Forhold som kan påvirke brukere vises under.\n\r\r19.3\rFavorittliste over aktører, hendelse-feed for status på meldinger, mindre endringer, feilrettinger i skattemeldingen og andre feilrettinger\n\r\r19.2\rEndringer i webSA, utvidet samtykketoken, mindre forbedringer og feilrettinger\n\r\r19.1\rSamtykke utvidelse NADOBE, filtrere bort slettede virksomheter, mindre endringer og feilrettinger\n\r\r"
+},
+{
+	"uri": "https://altinn.github.io/docs/ny-funksjonalitet/releases/2024/24-5/",
+	"title": "24.5",
+	"tags": [],
+	"description": "Mindre forbedringer og feilrettinger",
+	"content": "Vi minner også om endringer i Altinn 3.0.\nEndringer i Autorisasjon Ressurser i ressursregisteret må vises i listen over tjenester som en rolle gir tilgang til Listen over roller en bruker har (inkl listen over tjenester som er knyttet til rollen), blir foreløpig liggende i Altinn 2, men vi må hente informasjon om ressurser i ressursregisteret i tillegg til tjenestene på Altinn 2 og vise dette når brukeren klikker på ?-tegnet ved rollen.\nDet er nå lagt til logikk for å hente frem ressurser fra ressursregisteret og inkludere disse i listen over tjenester i popup som vises ved å trykke på spørsmålstegnet ved siden av en rolle.\nDiverse bugfix Støtte for varsling for Altinn3 tjenester Når man velger profil/\u0026ldquo;din kontaktinfo \u0026hellip;\u0026rdquo; etterfulgt av \u0026ldquo;varsling kun for enkelttjenster\u0026hellip;\u0026rdquo;, så bør Altinn 3 tjenester inkluderes i listen over tilgjengelige tjenester, og tjenestene må kunne velges og lagres. Dette er nå implementert.\nAltinnApi søk mot meldingsboks genererer kall mot Altinn3 Det ligger en sjekk i koden som skal sørge for at kall fra SBS mot meldingsboks ikke trigger kall til Altinn3, men denne sjekken i koden fungerer bare for Soap - ikke for AltinnApi. Dette må endres, slik at AltinnApi også blir tatt hensyn til. Dette er nå fikset slik at sjekk i koden også fungerer for AltinnApi.\nMange logginnslag ved tom cookie Det kommer mange innslag i eventloggene i prod med \u0026ldquo;System.ArgumentException: Invalid value for \u0026lsquo;encryptedTicket\u0026rsquo; parameter.\u0026rdquo; Dette skyldes at SBS sender en tom cookie. Input valideringen må endres til å sjekke at cookie ikke er tom. Dette er nå implementert.\n"
 },
 {
 	"uri": "https://altinn.github.io/docs/ny-funksjonalitet/releases/2018/18-4/",
@@ -2567,13 +2574,6 @@
 	"tags": [],
 	"description": "",
 	"content": "docs\n"
-},
-{
-	"uri": "https://altinn.github.io/docs/ny-funksjonalitet/releases/2024/24-5/",
-	"title": "",
-	"tags": [],
-	"description": "",
-	"content": ""
 },
 {
 	"uri": "https://altinn.github.io/docs/ny-funksjonalitet/releases/2016/16-1/",

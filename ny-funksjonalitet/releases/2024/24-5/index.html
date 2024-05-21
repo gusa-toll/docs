@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="Mindre forbedringer og feilrettinger">
 
 
     
-    <title> :: Altinn digitalisering - Utvikling</title>
+    <title>24.5 :: Altinn digitalisering - Utvikling</title>
     
     <link rel="shortcut icon" href="/docs/images/favicon.png" type="image/x-icon" />
     <link href="/docs/css/nucleus.css" rel="stylesheet">
@@ -765,7 +765,9 @@ if(host != "localhost")
       <li class="dd-item parent">
         <a href="/docs/ny-funksjonalitet/releases/"><span>Endringslogg Altinn 2</span><i class="fa fa-sort-down fa-lg category-icon"></i></a><ul>
       <li class="dd-item parent">
-        <a href="/docs/ny-funksjonalitet/releases/2024/"><span>2024</span><i class="fa fa-sort-down fa-lg category-icon"></i></a><ul><li class="dd-item">
+        <a href="/docs/ny-funksjonalitet/releases/2024/"><span>2024</span><i class="fa fa-sort-down fa-lg category-icon"></i></a><ul><li class="dd-item active">
+          <a href="/docs/ny-funksjonalitet/releases/2024/24-5/">
+            <span>24.5</span></a></li><li class="dd-item">
           <a href="/docs/ny-funksjonalitet/releases/2024/24-4/">
             <span>24.4</span></a></li><li class="dd-item">
           <a href="/docs/ny-funksjonalitet/releases/2024/24-3/">
@@ -773,9 +775,7 @@ if(host != "localhost")
           <a href="/docs/ny-funksjonalitet/releases/2024/24-2/">
             <span>24.2</span></a></li><li class="dd-item">
           <a href="/docs/ny-funksjonalitet/releases/2024/24-1/">
-            <span>24.1</span></a></li><li class="dd-item active">
-          <a href="/docs/ny-funksjonalitet/releases/2024/24-5/">
-            <span></span></a></li></ul></li>
+            <span>24.1</span></a></li></ul></li>
       <li class="dd-item">
         <a href="/docs/ny-funksjonalitet/releases/2023/"><span>2023</span><i class="fa fa-caret-right fa-lg category-icon"></i></a><ul><li class="dd-item">
           <a href="/docs/ny-funksjonalitet/releases/2023/23-12/">
@@ -1031,7 +1031,7 @@ if(host != "localhost")
 
 
 
- <a href='/docs/'>Utvikling (Altinn 2)</a> <span class='adocs-breadcrumb-divider'> / </span> <a href='/docs/ny-funksjonalitet/'>Veien videre</a> <span class='adocs-breadcrumb-divider'> / </span> <a href='/docs/ny-funksjonalitet/releases/'>Endringslogg Altinn 2</a> <span class='adocs-breadcrumb-divider'> / </span> <a href='/docs/ny-funksjonalitet/releases/2024/'>2024</a> <span class='adocs-breadcrumb-divider'> / </span> 
+ <a href='/docs/'>Utvikling (Altinn 2)</a> <span class='adocs-breadcrumb-divider'> / </span> <a href='/docs/ny-funksjonalitet/'>Veien videre</a> <span class='adocs-breadcrumb-divider'> / </span> <a href='/docs/ny-funksjonalitet/releases/'>Endringslogg Altinn 2</a> <span class='adocs-breadcrumb-divider'> / </span> <a href='/docs/ny-funksjonalitet/releases/2024/'>2024</a> <span class='adocs-breadcrumb-divider'> / </span> 24.5
 
  
 
@@ -1051,10 +1051,10 @@ if(host != "localhost")
           
             
               <h1 class="a-fontBold">
-                
+                24.5
                 
               </h1>
-              <p class="a-leadText" id="leadText"></p>
+              <p class="a-leadText" id="leadText">Mindre forbedringer og feilrettinger</p>
             
           
 
@@ -1064,12 +1064,31 @@ if(host != "localhost")
 
 
 
+<p><strong>Release 24.5</strong></p>
+
+
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#endringer-i-autorisasjon">Endringer i Autorisasjon</a></li>
+    <li><a href="#diverse-bugfix">Diverse bugfix</a></li>
+  </ul>
+</nav>
 
 
 
 
-
-
+<p><strong>Vi minner også om endringer i <a href="https://github.com/Altinn/altinn-studio/releases">Altinn 3.0.</a></strong></p>
+<h2 id="endringer-i-autorisasjon">Endringer i Autorisasjon</h2>
+<h3 id="ressurser-i-ressursregisteret-må-vises-i-listen-over-tjenester-som-en-rolle-gir-tilgang-til">Ressurser i ressursregisteret må vises i listen over tjenester som en rolle gir tilgang til</h3>
+<p>Listen over roller en bruker har (inkl listen over tjenester som er knyttet til rollen), blir foreløpig liggende i Altinn 2, men vi må hente informasjon om ressurser i ressursregisteret i tillegg til tjenestene på Altinn 2 og vise dette når brukeren klikker på ?-tegnet ved rollen.</p>
+<p>Det er nå lagt til logikk for å hente frem ressurser fra ressursregisteret og inkludere disse i listen over tjenester i popup som vises ved å trykke på spørsmålstegnet ved siden av en rolle.</p>
+<h2 id="diverse-bugfix">Diverse bugfix</h2>
+<h3 id="støtte-for-varsling-for-altinn3-tjenester">Støtte for varsling for Altinn3 tjenester</h3>
+<p>Når man velger profil/&ldquo;din kontaktinfo &hellip;&rdquo; etterfulgt av &ldquo;varsling kun for enkelttjenster&hellip;&rdquo;, så bør Altinn 3 tjenester inkluderes i listen over tilgjengelige tjenester, og tjenestene må kunne velges og lagres. Dette er nå implementert.</p>
+<h3 id="altinnapi-søk-mot-meldingsboks-genererer-kall-mot-altinn3">AltinnApi søk mot meldingsboks genererer kall mot Altinn3</h3>
+<p>Det ligger en sjekk i koden som skal sørge for at kall fra SBS mot meldingsboks ikke trigger kall til Altinn3, men denne sjekken i koden fungerer bare for Soap - ikke for AltinnApi. Dette må endres, slik at AltinnApi også blir tatt hensyn til. Dette er nå fikset slik at sjekk i koden også fungerer for AltinnApi.</p>
+<h3 id="mange-logginnslag-ved-tom-cookie">Mange logginnslag ved tom cookie</h3>
+<p>Det kommer mange innslag i eventloggene i prod med &ldquo;System.ArgumentException: Invalid value for &lsquo;encryptedTicket&rsquo; parameter.&rdquo; Dette skyldes at SBS sender en tom cookie. Input valideringen må endres til å sjekke at cookie ikke er tom. Dette er nå implementert.</p>
 
 
 <footer class=" footline" >
@@ -1077,11 +1096,12 @@ if(host != "localhost")
 </footer>
 
 
+
                 </div>
               </div>
 
               <div id="navigation">
-                  <a class="nav nav-prev" href="/docs/ny-funksjonalitet/releases/2024/24-1/" title="24.1"> <i class="fa fa-angle-left"></i> Forrige side</a><a class="nav nav-next" href="/docs/ny-funksjonalitet/releases/2023/" title="2023" style="margin-right: 0px;">Neste side <i class="fa fa-angle-right"></i></a></div>
+                  <a class="nav nav-prev" href="/docs/ny-funksjonalitet/releases/2024/" title="2024"> <i class="fa fa-angle-left"></i> Forrige side</a><a class="nav nav-next" href="/docs/ny-funksjonalitet/releases/2024/24-4/" title="24.4" style="margin-right: 0px;">Neste side <i class="fa fa-angle-right"></i></a></div>
 
             </div><div id="top-github-link">
                   <a class="" href="https://github.com/altinn/docs/blob/master/content/ny-funksjonalitet/releases/2024/24-5/index.md" target="blank">
@@ -1220,3 +1240,4 @@ if(host != "localhost")
     </script>
 <script src="/docs/js/custom.js"></script></body>
 </html>
+
